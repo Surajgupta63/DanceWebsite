@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: aqua;
+    padding: 12px 0px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: black;
+    text-decoration: none;
+    padding: 7px 9px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#navbar li a:hover{
+    color: red;
+}
+
+#introSection{
+    padding-bottom: 38px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    background: center / cover no-repeat url("/static/da.jpg.jpg");
+    opacity: 0.99;
+    background-color: red;
+    height: 300px;
+}
+#introSection div.D{
+    font-size: 23px;
+}
+#missionSection {
+    background-color: #ffefdc;
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 14px;
+    /* height: 300px; */
+}
+.card{
+    display: inline-block;
+    margin: 23px 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30%;
+    height: 209px;
+}
+.card h4{
+    text-align: center;
+    margin: 12px;
+    margin-top: 12px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+
+}
+.card-img img{
+    height: inherit;
+}
+
+#sponsorSection{
+    color: white;
+    display: inline-block;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 14px;
+    background-color: rgb(80 80 56);
+    height: 300px;
+    width: 100%;
+}
+#sponsorSection h2{
+    text-align: center;
+    margin-top: 23px;
+}
+#sponsors{
+    height: 190px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spImage{
+    height: 60%;
+    margin: 56px 47px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    font-size: 12px;
+}
+#logo{
+    display: flex;
+    color: red;
+    /* color: white; */
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 43px;
+}
+#logo img{
+    height: 33px;
+    /* filter: invert(1); */
+}

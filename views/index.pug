@@ -1,0 +1,59 @@
+//- index.pug
+doctype html
+html
+  head
+    title Suraj Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+            ul
+                div#logo
+                  img(src="/static/logomain.png")
+                  |SGA
+                li #[a(href="/") Home]
+                li #[a(href="/") About ]
+                li #[a(href="/") Services ]
+                li #[a(href="/") Class Info ]
+                li #[a(href="/") Contact Us]
+
+    section#introSection 
+          div Welcome to Dance Academy of Suraj Gupta 
+          div.D Eat Sleep Dance Repeat
+
+    section#missionSection
+            h2 Our Mission
+            div.card 
+                  h4 Dance Perfection
+                  div.card-box
+                        div.card-img
+                              img(src="/static/1.png.png", alt="1.png")
+                        div.card-content
+                              p This is The Best Dance Academy of Lovely Professional Univerfsity
+            div.card 
+                  h4 Dance The Way You Like
+                  div.card-box
+                        div.card-img
+                              img(src="/static/2.png.png", alt="2.png")
+                        div.card-content
+                              p This is The Best Dance Academy of Lovely Professional Univerfsity
+            div.card 
+                  h4 Expert Teaching
+                  div.card-box
+                        div.card-img
+                              img(src="/static/3.png.png", alt="3.png")
+                        div.card-content
+                              p This is The Best Dance Academy of Lovely Professional Univerfsity
+
+    section#sponsorSection
+          h2 Our Sponsors
+          div#sponsors
+            img(src="/static/sp4.png", alt="sp1Image" Class="spImage")
+            img(src="/static/sp2.png", alt="sp2Image" Class="spImage")
+            img(src="/static/sp3.png", alt="sp3Image" Class="spImage")
+            img(src="/static/sp1.png", alt="sp4Image" Class="spImage")
+
+    footer#footer 
+          | Copyright &copy 2023 SurajDanceAcademy.com | All Rights Reserved
+    script
+      include ../static/index.js
